@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vaccination scheduler tool</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+ <script src="main.js"></script>
+ 
+</head>
+<body>
+<h1>Vaccination scheduler tool</h1>
+<br>
+<h3>For best protection against disease, it’s advised that children get vaccinated on time starting at 2 months of age and that they follow the recommended schedule as closely as possible.</h3>
+<br>
+<br>
+<h3>
+Get a personalized vaccination schedule for your child ages birth through 6 years.
+</h3>
+<br>
+<center>
+ <h2>
+     Enter your child's year of birth
+ </h2>
+ 
+ <div>
+   <select class="btn btn-warning ">
+    <option value>-Year</option>
+    <option value="2021" selected="selected">2021</option>  
+    </select
+    <br>
+    <h2>Enter the month your child was born</h2>
+    
+    <select class="btn btn-warning monthse">
+    <option value="1">Jan</option>
+    <option value="1" selected="selected">Jan</option>
+    <option value="2">Feb</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">Sept</option>
+    <option value="10">October</option>
+    <option value="11">Nov</option>
+    <option value="12">Dec</option>
+    
+</select>
+    <h2>
+        Enter the day your child was born 
+    </h2>
+    <select class="btn btn-warning dayse">
+        <option value>-Day</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="3" selected="selected">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+
+    </select>
+    </div>
+    
+    <br>
+    <br>    
+    <form>
+        <input type = "button" value = "Submit" onclick = "omg()">
+     </form>
+    
+    <h3 class="btn btn-danger">NOTE : CLICKING ON SUBMIT WILL TAKE YOU TO THE VACCINATING PAGE ACCORDING TO THE CHILDREN'S age</h3>
+ </center>
+
+</body>
+</html>
